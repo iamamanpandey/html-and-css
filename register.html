@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+    <html>
+<head><title>Register</title>
+<meta content="blog">
+
+</head>
+<body>
+<!------------- making form------------------->
+    <h1>Register</h1>
+<form>
+    <div>
+    <label for="fn">First name</label>
+    <input type="text" placeholder=" first name" name="fn" id="fn" required>
+    <label for="Mn">Middle name:</label>
+    <input type="text" placeholder=" Middle name" name="mn" id="Mn" required>
+    <label for="Ln">Last name</label>
+    <input type="text" placeholder="name" name="ln" id="Ln" required><br>
+</div>
+<div>
+  <label>select you gender</label><br>
+    Male <input id="male" type="radio" name="Gender" value="male" >
+   Female <input id="Female" type="radio" name="Gender" value="female">
+   Others <input id="others" type="radio"   name="Gender" value="others">
+     </div>
+<div>
+  Enter your  email: <input type="email" name="em" placeholder=" email"><br>
+   Enter your Mobile no/:<input type="text" name="mno" required><br>
+  enter your age:<input type="number" name="ageno" max="25" min="15"  required><br>
+   Birthday:<input type="datetime-local" name="bdaytime"><br>
+  enter your resume:<input type="file"   name="file"><br>
+   Pasword: <input type="password"  name="pass" > <br>
+</div>
+<div>
+    
+    <label for="agrred">I have agree to the term and condition
+        <input type="checkbox" name="agreed"><br>
+    </label>
+</div><br>
+<input  type="button" placeholder="submit" value="submit"  name="b1">
+<input  type="reset" placeholder="reset" value="reset"  name="r1">
+</form>
+</body>
+</html>
