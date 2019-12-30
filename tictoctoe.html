@@ -1,0 +1,53 @@
+<!--creating tic toc toe game board-->
+<!DOCTYPE html>
+<head>
+    <title>tic toc toe</title>
+<!-- css for tic toc toe game board-->
+<style type="text/css">
+table{
+    margin: auto;
+}
+ h1{
+     text-align: center;
+     font-size: large;
+     color: blue;
+ }
+    td{
+        width: 100px;
+        height: 100px;
+    }
+    .vertical{
+        border-left: 1px solid black ;
+        border-right: 1px solid black;
+    }
+.horizantal{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+    
+    </style>
+
+</head>
+<body>
+<h1>tic toc toe</h1>
+    <table>
+        <tr>
+            <td></td>
+            <td class="vertical"></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td class="horizantal"></td>
+            <td class="vertical horizantal"></td>
+            <td class="horizantal"></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td class="vertical"></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
